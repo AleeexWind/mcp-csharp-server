@@ -1,0 +1,39 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\u0022status\u0022:\u0022success\u0022,\u0022query\u0022:\u0022ProjectSandbox\u0022,\u0022totalIndexed\u0022:4,\u0022results\u0022:[{\u0022title\u0022:\u0022ProjectSandbox\u0022,\u0022package\u0022:\u0022ProjectSandbox\u0022,\u0022path\u0022:\u0022docs/project-sandbox.md\u0022,\u0022score\u0022:3,\u0022excerpt\u0022:\u0022Security helper that confines file and command tools to \\u0060MCP_PROJECT_ROOT\\u0060.\u0022,\u0022link\u0022:\u0022file://docs/project-sandbox.md\u0022},{\u0022title\u0022:\u0022Tool outputs contract\u0022,\u0022package\u0022:\u0022Tool outputs contract\u0022,\u0022path\u0022:\u0022docs/contract.md\u0022,\u0022score\u0022:1,\u0022excerpt\u0022:\u0022\\u0022query\\u0022: \\u0022ProjectSandbox\\u0022,\u0022,\u0022link\u0022:\u0022file://docs/contract.md\u0022}]}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "query": "ProjectSandbox",
+    "totalIndexed": 4,
+    "results": [
+      {
+        "title": "ProjectSandbox",
+        "package": "ProjectSandbox",
+        "path": "docs/project-sandbox.md",
+        "score": 3,
+        "excerpt": "Security helper that confines file and command tools to \u0060MCP_PROJECT_ROOT\u0060.",
+        "link": "file://docs/project-sandbox.md"
+      },
+      {
+        "title": "Tool outputs contract",
+        "package": "Tool outputs contract",
+        "path": "docs/contract.md",
+        "score": 1,
+        "excerpt": "\u0022query\u0022: \u0022ProjectSandbox\u0022,",
+        "link": "file://docs/contract.md"
+      }
+    ]
+  },
+  "isError": null,
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "McpCsharpServer",
+      "version": "1.0.0.0"
+    }
+  },
+  "resultType": "complete"
+}

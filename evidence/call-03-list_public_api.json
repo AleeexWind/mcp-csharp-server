@@ -1,0 +1,30 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\u0022status\u0022:\u0022success\u0022,\u0022typeQuery\u0022:\u0022DocsTools\u0022,\u0022typeCount\u0022:1,\u0022types\u0022:[{\u0022typeName\u0022:\u0022DocsTools\u0022,\u0022path\u0022:\u0022src/McpCsharpServer/Tools/DocsTools.cs\u0022,\u0022publicMethods\u0022:[\u0022LookupDocs\u0022]}]}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "typeQuery": "DocsTools",
+    "typeCount": 1,
+    "types": [
+      {
+        "typeName": "DocsTools",
+        "path": "src/McpCsharpServer/Tools/DocsTools.cs",
+        "publicMethods": [
+          "LookupDocs"
+        ]
+      }
+    ]
+  },
+  "isError": null,
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "McpCsharpServer",
+      "version": "1.0.0.0"
+    }
+  },
+  "resultType": "complete"
+}

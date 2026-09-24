@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "mcp-csharp-server": {
+      "command": "dotnet",
+      "args": [
+        "run",
+        "--project",
+        "src/McpCsharpServer/McpCsharpServer.csproj"
+      ],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "MCP_PROJECT_ROOT": "${workspaceFolder}",
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

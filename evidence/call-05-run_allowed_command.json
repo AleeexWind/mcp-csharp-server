@@ -1,0 +1,27 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\u0022status\u0022:\u0022error\u0022,\u0022commandKey\u0022:\u0022rm -rf /\u0022,\u0022executable\u0022:\u0022\u0022,\u0022arguments\u0022:[],\u0022exitCode\u0022:-1,\u0022stdout\u0022:\u0022\u0022,\u0022stderr\u0022:\u0022\u0022,\u0022workingDirectory\u0022:\u0022D:\\\\Applications\\\\Otus\\\\mcp-csharp-server\u0022,\u0022error\u0022:\u0022Command \\u0027rm -rf /\\u0027 is not whitelisted. Use list-allowed to see permitted keys.\u0022}"
+    }
+  ],
+  "structuredContent": {
+    "status": "error",
+    "commandKey": "rm -rf /",
+    "executable": "",
+    "arguments": [],
+    "exitCode": -1,
+    "stdout": "",
+    "stderr": "",
+    "workingDirectory": "D:\\Applications\\Otus\\mcp-csharp-server",
+    "error": "Command \u0027rm -rf /\u0027 is not whitelisted. Use list-allowed to see permitted keys."
+  },
+  "isError": null,
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "McpCsharpServer",
+      "version": "1.0.0.0"
+    }
+  },
+  "resultType": "complete"
+}

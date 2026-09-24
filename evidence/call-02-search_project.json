@@ -1,0 +1,39 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\u0022status\u0022:\u0022success\u0022,\u0022query\u0022:\u0022AddMcpServer\u0022,\u0022sandboxRoot\u0022:\u0022D:\\\\Applications\\\\Otus\\\\mcp-csharp-server\u0022,\u0022matchCount\u0022:3,\u0022matches\u0022:[{\u0022path\u0022:\u0022src/McpCsharpServer/Program.cs\u0022,\u0022line\u0022:26,\u0022text\u0022:\u0022.AddMcpServer()\u0022},{\u0022path\u0022:\u0022src/McpSmokeTest/Program.cs\u0022,\u0022line\u0022:36,\u0022text\u0022:\u0022(\\u0022search_project\\u0022, new() { [\\u0022query\\u0022] = \\u0022AddMcpServer\\u0022, [\\u0022filePattern\\u0022] = \\u0022*.cs\\u0022, [\\u0022maxResults\\u0022] = 10 },\u0022},{\u0022path\u0022:\u0022src/McpSmokeTest/Program.cs\u0022,\u0022line\u0022:37,\u0022text\u0022:\u0022\\u0022\\u0413\\u0434\\u0435 \\u0432 \\u043F\\u0440\\u043E\\u0435\\u043A\\u0442\\u0435 \\u0432\\u044B\\u0437\\u044B\\u0432\\u0430\\u0435\\u0442\\u0441\\u044F AddMcpServer?\\u0022),\u0022}]}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "query": "AddMcpServer",
+    "sandboxRoot": "D:\\Applications\\Otus\\mcp-csharp-server",
+    "matchCount": 3,
+    "matches": [
+      {
+        "path": "src/McpCsharpServer/Program.cs",
+        "line": 26,
+        "text": ".AddMcpServer()"
+      },
+      {
+        "path": "src/McpSmokeTest/Program.cs",
+        "line": 36,
+        "text": "(\u0022search_project\u0022, new() { [\u0022query\u0022] = \u0022AddMcpServer\u0022, [\u0022filePattern\u0022] = \u0022*.cs\u0022, [\u0022maxResults\u0022] = 10 },"
+      },
+      {
+        "path": "src/McpSmokeTest/Program.cs",
+        "line": 37,
+        "text": "\u0022\u0413\u0434\u0435 \u0432 \u043F\u0440\u043E\u0435\u043A\u0442\u0435 \u0432\u044B\u0437\u044B\u0432\u0430\u0435\u0442\u0441\u044F AddMcpServer?\u0022),"
+      }
+    ]
+  },
+  "isError": null,
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "McpCsharpServer",
+      "version": "1.0.0.0"
+    }
+  },
+  "resultType": "complete"
+}

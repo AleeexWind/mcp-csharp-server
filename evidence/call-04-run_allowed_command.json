@@ -1,0 +1,26 @@
+{
+  "content": [
+    {
+      "type": "text",
+      "text": "{\u0022status\u0022:\u0022success\u0022,\u0022commandKey\u0022:\u0022list-allowed\u0022,\u0022executable\u0022:\u0022list-allowed\u0022,\u0022arguments\u0022:[],\u0022exitCode\u0022:0,\u0022stdout\u0022:\u0022dotnet-build: Build the solution/project under the sandbox.\\ndotnet-test: Run tests (no restore).\\ndotnet-restore: Restore NuGet packages.\\nlist-allowed: Return the whitelist without executing anything.\u0022,\u0022stderr\u0022:\u0022\u0022,\u0022workingDirectory\u0022:\u0022D:\\\\Applications\\\\Otus\\\\mcp-csharp-server\u0022}"
+    }
+  ],
+  "structuredContent": {
+    "status": "success",
+    "commandKey": "list-allowed",
+    "executable": "list-allowed",
+    "arguments": [],
+    "exitCode": 0,
+    "stdout": "dotnet-build: Build the solution/project under the sandbox.\ndotnet-test: Run tests (no restore).\ndotnet-restore: Restore NuGet packages.\nlist-allowed: Return the whitelist without executing anything.",
+    "stderr": "",
+    "workingDirectory": "D:\\Applications\\Otus\\mcp-csharp-server"
+  },
+  "isError": null,
+  "_meta": {
+    "io.modelcontextprotocol/serverInfo": {
+      "name": "McpCsharpServer",
+      "version": "1.0.0.0"
+    }
+  },
+  "resultType": "complete"
+}
