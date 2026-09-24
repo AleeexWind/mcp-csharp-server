@@ -35,7 +35,7 @@ dotnet build
 
 ## Подключение в Cursor (2–5 шагов)
 
-1. Откройте папку `D:\Applications\Otus\mcp-csharp-server` как workspace в Cursor.
+1. Откройте папку `mcp-csharp-server` как workspace в Cursor.
 2. Убедитесь, что файл [`.cursor/mcp.json`](.cursor/mcp.json) на месте (уже в репозитории).
 3. Выполните `dotnet build` один раз, чтобы проект собирался.
 4. Cursor → **Settings → MCP** (или перезагрузка окна): сервер `mcp-csharp-server` должен появиться и стать зелёным.
